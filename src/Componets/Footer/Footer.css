@@ -1,0 +1,57 @@
+footer{
+    width: 100%;
+    background-color: rgb(22, 22, 22);
+}
+
+.footer-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-weight: 600;
+
+}
+
+.collumn1{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.collumn1 h2{
+    font-size: 2rem;
+    color: #cf6c0f;
+}
+
+.footer_icones{
+    display: flex;
+    gap: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.collumn2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    gap: 10px;
+}
+
+.collumn2 a{
+    text-decoration: none;
+}
+
+.collumn3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+input{
+    width: 50%;
+    padding: 5px 10px;
+    margin-top: 5px;
+}

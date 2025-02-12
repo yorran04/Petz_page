@@ -1,0 +1,115 @@
+
+section{
+    width: 100%;
+    padding: 10px 8%;
+}
+
+.home-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.texto-principal{
+    width: 70%;
+    color: #2c123bee;
+    font-size: 2rem;
+}
+
+
+.text-botton{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-botton p{
+    font-size: 1.3rem;
+    color: #8a8989;
+}
+
+.btn-text{
+    width: 180px;
+    display: flex;
+     align-items: center;
+     gap: 10px;
+     background-color: #217cf3 ;
+     color: #fff;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+.btn-text:hover{
+    color:#217cf3  ;
+    background-color: #fff;
+    border: 2px solid #217cf3 ;
+}
+
+.link-acessorios{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-acessorios:hover{
+    color:#217cf3  ;
+}
+
+.imagens-petz{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+   
+}
+
+#dog1{
+    width: 400px;
+    border-radius: 0 180px 150px 130px;
+}
+
+#dog2 {
+    width: 400px;
+    border-radius: 100px 0 140px 0;
+}
+
+#dog3 {
+    width: 400px;
+    border-radius: 200px 200px 0 100px;
+}
+
+@media screen and (max-width: 980px) {
+
+    #dog1 ,#dog2, #dog3{
+        width: 200px;
+    }
+
+    .text{
+        flex-direction: column;
+    }
+
+    .text-botton{
+       max-width: 500px;
+       align-items: center;
+    }
+}
+
+@media screen and (max-width: 620px){
+    #dog1 ,#dog2, #dog3{
+        width: 150px;
+    }
+
+    .texto-principal{
+        font-size: 1.5rem;
+    }
+}

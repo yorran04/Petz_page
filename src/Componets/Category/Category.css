@@ -1,0 +1,193 @@
+
+.category-container{
+   width: 100%;
+}
+
+.category-content{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.category-whatdo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+
+}
+
+.category-text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category-text h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #2c123bee;
+}
+
+.category-text p {
+    width: 70%;
+    font-size: 1rem;
+    color: #8a8989;
+}
+
+.category-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.category-icons , .icone-category{
+    font-size: 1.4rem;
+    color: #217cf3;
+    cursor: pointer;
+}
+
+
+.box-category{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #8a8989;
+    border-radius: 15px;
+    padding: 10px;
+    width: 220px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.box p{
+    font-size: 1.2rem;
+    color:#2c123bee ;
+    font-weight: 600;
+}
+
+.box-pata{
+    width: 50%;
+    height: 50%;
+    background-color:rgb(15, 131, 50);
+    border-radius: 50%;
+    
+}
+
+#pata-dog{ 
+    width: 100%;
+    height: 100%;
+}
+
+.box-dente{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(255, 8, 0);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.shop-category{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.shop-category h2{
+    font-size: 2rem;
+    color: #2c123bee;
+    margin-bottom: 20px;
+}
+
+.shop-category p{
+    width: 50%;
+    text-align: center;
+    color: #8a8989;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.shop-box-category{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+
+.shop_box{
+    width: 33%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.dog-categoria{
+    background-color: rgb(88, 209, 124);
+}
+
+.cat-categoria{
+    background-color: rgb(192, 86, 47);
+}
+
+.rabbit-categoria{
+    background-color: rgb(43, 142, 199);
+}
+
+.box-detail{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.box-detail h3{
+    font-size: 1.5rem;
+}
+
+.box-detail , h3, span, a{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    .category-whatdo{
+        flex-direction: column;
+    }
+
+    .category-text{
+        width: 100%;
+        align-items: center;
+    }
+    .box-category{
+        width: 100%;
+    }
+
+    .shop-category p{
+        width: 100%;
+    }
+    .shop-box-category{
+        flex-direction: column;
+    }
+    .shop_box{
+        width: 90%;
+    }
+}
