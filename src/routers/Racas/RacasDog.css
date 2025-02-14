@@ -6,6 +6,7 @@
 
 .racas_container{
  max-width:1300px;
+ height: auto;
  margin: 0 auto;
  display: flex;
  flex-direction: column;
@@ -29,7 +30,7 @@
 }
 
 #input-racas{
-    width: 90%;
+    width: 60%;
     padding: 10px;
     font-size: 1.5rem;
     outline: none;

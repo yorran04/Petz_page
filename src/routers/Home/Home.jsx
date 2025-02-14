@@ -1,6 +1,5 @@
 import './Home.css';
 import { FaArrowCircleRight } from "react-icons/fa";
-import { Link } from 'react-router-dom';
 import {motion} from 'framer-motion'
 
 import Dog1 from '../../img/dog1.png';
@@ -8,6 +7,7 @@ import Dog2 from '../../img/dog2.png';
 import Dog3 from '../../img/dog3.png';
 import Banner from '../../Componets/Banner/Banner';
 import Category from '../../Componets/Category/Category';
+import Botoes from '../../Componets/Buttons/Buttons';
 
 
 
@@ -23,10 +23,9 @@ const Home = () => {
         </div>
         <div className="text-botton">
          <p>Há uma grande variedade de roupas para animais de estimação com as quais você pode se divertir.</p>
-         <button className='btn-text'>
-          <Link className='link-acessorios' to="/acessorios">Show Now</Link>
-          <FaArrowCircleRight className='icon-btn'/>
-         </button>
+          <Botoes>Mostre Mais
+          <FaArrowCircleRight/>
+          </Botoes>
         </div>
       </div>
      <div className="imagens-petz">

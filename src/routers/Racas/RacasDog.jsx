@@ -1,6 +1,8 @@
 import { useState} from "react"
 import axios from "axios";
 
+import Botoes from '../../Componets/Buttons/Buttons'
+
 import './RacasDog.css'
 
 const RacasDog = () => {
@@ -36,7 +38,7 @@ const fethApi = async () => {
         value={dogs}
         onChange={(e) => setDogs(e.target.value.toLowerCase())} 
         id="input-racas"/>
-        <button onClick={fethApi}>Buscar</button>
+        <Botoes onClick={fethApi}>Buscar</Botoes>
       </div>
       <div className="card_racas">
         {error && <p>{error}</p>}

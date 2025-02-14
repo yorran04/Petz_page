@@ -5,9 +5,9 @@ import { GlobalStyles } from './GlobalStyles.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Home from './routers/Home/Home.jsx';
-import Acessorios from './routers/Acessorios/Acessorios.jsx';
 import RacasDog from './routers/Racas/RacasDog.jsx';
 import App from './App.jsx';
+import Servicos from './routers/Servicos/Servicos.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "/acessorios",
-        element: <Acessorios/>
+        path : "/servicos",
+        element: <Servicos/>
       },
       {
         path: "/racas",

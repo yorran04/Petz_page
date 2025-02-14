@@ -27,33 +27,15 @@ section{
     font-size: 2rem;
 }
 
-
 .text-botton{
+    width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 15px;
 }
 
-.text-botton p{
-    font-size: 1.3rem;
-    color: #8a8989;
-}
-
-.btn-text{
-    width: 180px;
-    display: flex;
-     align-items: center;
-     gap: 10px;
-     background-color: #217cf3 ;
-     color: #fff;
-     font-weight: 600;
-     cursor: pointer;
-}
-
-.btn-text:hover{
-    color:#217cf3  ;
-    background-color: #fff;
-    border: 2px solid #217cf3 ;
+.text-botton p {
+    color:#8a8989 ;
 }
 
 .link-acessorios{
@@ -61,9 +43,7 @@ section{
     color: #fff;
 }
 
-.link-acessorios:hover{
-    color:#217cf3  ;
-}
+
 
 .imagens-petz{
     width: 100%;

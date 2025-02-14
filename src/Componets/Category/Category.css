@@ -167,6 +167,9 @@
     font-family: sans-serif;
 }
 
+.text-categoria{
+    max-width: 80%;
+}
 
 @media screen and (max-width: 768px) {
     .category-whatdo{
@@ -181,13 +184,8 @@
         width: 100%;
     }
 
-    .shop-category p{
-        width: 100%;
+    .shop-category{
+        display: none;
     }
-    .shop-box-category{
-        flex-direction: column;
-    }
-    .shop_box{
-        width: 90%;
-    }
+   
 }

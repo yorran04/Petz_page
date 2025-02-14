@@ -60,7 +60,7 @@ const Category = () => {
                 <img style={{width: '150px'}} src={DogCatedoria} alt="" />
                 <div className="box-detail">
                 <h3>Dog</h3>
-                <span>Lorem ipsum, dolor sit amet. </span>
+                <span className="text-categoria">Lorem ipsum, dolor sit amet. </span>
                 <a href="#">See All</a>
                 </div>
             </div>
@@ -68,7 +68,7 @@ const Category = () => {
                 <img style={{width: '150px'}} src={CatCategoria} alt="" />
                 <div className="box-detail">
                 <h3>Cat</h3>
-                <span>Lorem ipsum, dolor sit amet. </span>
+                <span className="text-categoria">Lorem ipsum, dolor sit amet. </span>
                 <a href="#">See All</a>
                 </div>
             </div>
@@ -76,7 +76,7 @@ const Category = () => {
                 <img style={{width: '150px'}} src={RabbitCategoria} alt="" />
                 <div className="box-detail">
                 <h3>Rabbit</h3>
-                <span>Lorem ipsum, dolor sit amet. </span>
+                <span className="text-categoria">Lorem ipsum, dolor sit amet. </span>
                 <a href="#">See All</a>
                 </div>
             </div>

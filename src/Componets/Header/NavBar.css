@@ -12,6 +12,7 @@ header{
      justify-content: space-between;
      padding: 15px;
      margin: 0 auto;
+     position: relative;
 }
 
 .logo{
@@ -22,6 +23,7 @@ header{
 ul{
     display: flex;
     gap: 20px;
+
 }
 
 ul li {
@@ -41,7 +43,7 @@ ul li {
 
 }
 
-button{
+#btn-sing{
     display: flex;
     align-items: center;
     gap: 5px;
@@ -67,15 +69,40 @@ button:hover{
     display: none;
 }
 
+.menu_list_mobile{
+    display: none;
+   
+}
+
 .mobile-icon{
     font-size: 2rem;
     color:#217cf3
 }
 
+#btn_hamburguer{
+    border: none;
+    background-color: transparent;
+    margin-right: 15px;
+}
 
 @media screen and (max-width: 768px) {
+    .btn-sing{
+        display: none;
+    }
     .menu_list{
         display: none;
+    }
+
+    .menu_list_mobile{
+        position: absolute;
+        top: 12px;
+        right: 0;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #fff;
+        padding: 30px;
     }
 
     .mobile-menu{
