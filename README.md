@@ -1,8 +1,13 @@
-# React + Vite
+Hoje quero compartilhar com vocês meu novo projeto desenvolvido com React: um site de Petz!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Com esse projeto, mergulhei fundo em conceitos como consumo de APIs, manipulação de dados e criação de interfaces dinâmicas.
 
-Currently, two official plugins are available:
+![Captura de tela 2025-02-18 124656](https://github.com/user-attachments/assets/c3a7137f-2b70-44a4-a1e9-7dedcfde7f99)
+![Captura de tela 2025-02-18 124716](https://github.com/user-attachments/assets/fade999c-872b-4535-92a2-9c27cc71bfd8)
+![Captura de tela 2025-02-18 124744](https://github.com/user-attachments/assets/6d6c9f3f-1969-43cc-ba8d-6c235f4a3391)
+![Captura de tela 2025-02-18 124805](https://github.com/user-attachments/assets/7139e8d5-b91e-4524-88a3-890a248054e5)
+![Captura de tela 2025-02-18 124831](https://github.com/user-attachments/assets/806d590e-01bb-42ba-af5c-7414a019d880)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Mobile:
+
+![Captura de tela 2025-02-18 124905](https://github.com/user-attachments/assets/4ce6aab6-8f6c-455a-8e6d-abf2ee6261b9)
